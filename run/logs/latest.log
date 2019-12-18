@@ -1,0 +1,51 @@
+[18dic2019 22:32:00.644] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\aleca\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[18dic2019 22:32:00.647] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 3.2.0+60+b86c1d4 starting: java version 1.8.0_231 by Oracle Corporation
+[18dic2019 22:32:01.057] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[18dic2019 22:32:01.661] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\aleca\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[18dic2019 22:32:03.249] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[18dic2019 22:32:11.054] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[18dic2019 22:32:11.081] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[18dic2019 22:32:12.895] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.0, for MC 1.14.4 with MCP 20190829.143755
+[18dic2019 22:32:12.896] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.0 Initialized
+[18dic2019 22:32:15.522] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[18dic2019 22:32:15.686] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[18dic2019 22:32:15.789] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18dic2019 22:32:16.506] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[18dic2019 22:32:16.508] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 28.1.0 Target: null
+[18dic2019 22:32:16.508] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badlionmod] Starting version check at http://myurl.me/
+[18dic2019 22:32:18.807] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[18dic2019 22:32:18.874] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[18dic2019 22:32:18.874] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[18dic2019 22:32:18.989] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
+[18dic2019 22:32:19.497] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[18dic2019 22:32:19.498] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[18dic2019 22:32:19.498] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[18dic2019 22:32:37.517] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_231]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_231]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_231]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_231]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_231]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_231]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_231]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_231]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_231]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_231]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_231]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_231]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[?:1.8.0_231]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[?:1.8.0_231]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[?:1.8.0_231]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_231]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_231]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_231]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[?:1.8.0_231]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_231]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_231]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_231]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_231]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+[18dic2019 22:33:07.853] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
